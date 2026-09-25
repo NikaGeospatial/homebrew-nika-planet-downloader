@@ -11,13 +11,13 @@ class NikaPlanetDownloader < Formula
     # One universal (arm64 + x86_64) binary, Developer ID signed and notarized,
     # so both architectures fetch the same archive.
     on_arm do
-      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.2/nika-planet-downloader-0.1.2-macos-universal.tar.gz"
-      sha256 "975d0c4d1c3e37bc272c8a851e2ab5695dc8cd5a2c2ab96b6c4a86e3d6066016"
+      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.3/nika-planet-downloader-0.1.3-macos-universal.tar.gz"
+      sha256 "995bb0dd07464ff3468d7639cb556f875932318c5e6ecb291e7a5c2980dfb219"
     end
 
     on_intel do
-      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.2/nika-planet-downloader-0.1.2-macos-universal.tar.gz"
-      sha256 "975d0c4d1c3e37bc272c8a851e2ab5695dc8cd5a2c2ab96b6c4a86e3d6066016"
+      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.3/nika-planet-downloader-0.1.3-macos-universal.tar.gz"
+      sha256 "995bb0dd07464ff3468d7639cb556f875932318c5e6ecb291e7a5c2980dfb219"
     end
   end
 
@@ -29,13 +29,13 @@ class NikaPlanetDownloader < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.2/nika-planet-downloader-0.1.2-linux-x86_64.tar.gz"
-      sha256 "680cbd1e8477907185767da27115d22961652064e861efa8edf4df9087c56da3"
+      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.3/nika-planet-downloader-0.1.3-linux-x86_64.tar.gz"
+      sha256 "82c9098013f7e05870eb34288118b7009610dc29f9e1d4d8a72d9112911d9937"
     end
 
     on_arm do
-      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.2/nika-planet-downloader-0.1.2-linux-x86_64.tar.gz"
-      sha256 "680cbd1e8477907185767da27115d22961652064e861efa8edf4df9087c56da3"
+      url "https://github.com/NikaGeospatial/nika-planet-downloader/releases/download/v0.1.3/nika-planet-downloader-0.1.3-linux-x86_64.tar.gz"
+      sha256 "82c9098013f7e05870eb34288118b7009610dc29f9e1d4d8a72d9112911d9937"
     end
   end
 
